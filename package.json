@@ -1,0 +1,9 @@
+{
+  "name": "ping-pong-championship",
+  "version": "0.0.0",
+  "description": "Virtual ping pong championship.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  }
+}
