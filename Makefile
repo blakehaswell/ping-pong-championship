@@ -1,5 +1,5 @@
 JSHINT     = node_modules/.bin/jshint
-MOCHA      = ./node_modules/.bin/mocha
+MOCHA      = node_modules/.bin/mocha
 
 SRC_DIR    = src
 TEST_DIR   = tests
