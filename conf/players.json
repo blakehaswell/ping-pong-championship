@@ -1,0 +1,10 @@
+[
+    { "id": 1, "name": "Zhe",     "defenseSetLength": 8 },
+    { "id": 2, "name": "Niko",    "defenseSetLength": 8 },
+    { "id": 3, "name": "TianYi",  "defenseSetLength": 7 },
+    { "id": 4, "name": "Joey",    "defenseSetLength": 7 },
+    { "id": 5, "name": "Tim",     "defenseSetLength": 6 },
+    { "id": 6, "name": "Mirek",   "defenseSetLength": 6 },
+    { "id": 7, "name": "Andreas", "defenseSetLength": 5 },
+    { "id": 8, "name": "Loucas",  "defenseSetLength": 5 }
+]

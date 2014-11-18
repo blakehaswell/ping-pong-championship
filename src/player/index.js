@@ -1,10 +1,3 @@
-var app          = require('express')();
+var app = require('./app');
 
-var getRandomInt = require('./utils/getRandomInt');
-
-app.get('/attack', function (req, res) {
-    var n = getRandomInt(1, 10);
-    res.send(n.toString());
-});
-
-app.listen(3000);
+app.listen(app.get('PORT'));

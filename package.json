@@ -13,6 +13,8 @@
     "superagent": "^0.21.0"
   },
   "dependencies": {
-    "express": "^4.10.2"
+    "express": "^4.10.2",
+    "nconf": "^0.6.9",
+    "lodash.find": "^2.4.1"
   }
 }

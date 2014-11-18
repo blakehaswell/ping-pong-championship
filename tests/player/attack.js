@@ -1,9 +1,21 @@
-var describe = require('mocha').describe;
-var expect   = require('chai').expect;
-var it       = require('mocha').it;
-var request  = require('superagent');
+var afterEach  = require('mocha').afterEach;
+var beforeEach = require('mocha').beforeEach;
+var describe   = require('mocha').describe;
+var expect     = require('chai').expect;
+var it         = require('mocha').it;
+var request    = require('superagent');
+
+var app        = require('../../src/player/app.js');
 
 describe('when the player is asked to attack', function () {
+
+    beforeEach(function () {
+        this.server = app.listen(3000);
+    });
+
+    afterEach(function () {
+        this.server.close();
+    });
 
     it('responds with a 200', function (done) {
         request
